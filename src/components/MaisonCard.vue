@@ -101,7 +101,7 @@ defineProps<MaisonRecord>()
             stroke-linejoin="round"
           ></path>
         </svg>
-        <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-gray-600">{{nbChambres}}</p>
+        <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-gray-600">{{nbChambres}} Beds</p>
       </div>
       <div class="flex justify-center items-center flex-grow relative gap-2">
         <svg
@@ -149,7 +149,7 @@ defineProps<MaisonRecord>()
             </clipPath>
           </defs>
         </svg>
-        <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-gray-600">{{nbSdb}}</p>
+        <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-gray-600">{{nbSdb}} Bathrooms</p>
       </div>
       <div class="flex justify-end items-center flex-grow relative gap-2">
         <svg
@@ -190,7 +190,7 @@ defineProps<MaisonRecord>()
             </clipPath>
           </defs>
         </svg>
-        <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-gray-600">{{surface}}</p>
+        <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-gray-600">{{surface}} m²</p>
       </div>
     </div>
   </div>

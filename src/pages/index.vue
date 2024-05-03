@@ -54,7 +54,6 @@ console.log(maisonListe)
 </script>
 
 <template> 
-    <MaisonCard nom-maison="kuvgtiutviu" favori :prix='2700' :nb-chambres="4" :nb-sdb="2" adresse="2821 Lake Sevilla, Palm Harbor, TX" :surface="45"/>
-  <h1 class="text-2xl">Bonjour monde !</h1>
+    <MaisonCard v-bind="maisonListe[2]" />
 </template>
 
