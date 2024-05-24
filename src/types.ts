@@ -13,3 +13,9 @@ export interface MaisonRecord {
   surface: number
   updated: string
 }
+
+export interface AgentRecord {
+  Nom : string
+  Prenom : string
+  Email : string
+}

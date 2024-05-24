@@ -50,7 +50,7 @@ import MaisonCard from '@/components/MaisonCard.vue'
         "updated": "2024-04-02 13:52:17.823Z"
     }
 ] */
-const maisonListe = await pb.collection('Maison').getFullList({ filter: 'favoris=true' })
+const maisonListe = await pb.collection('Maison').getFullList()
 console.log(maisonListe)
 
 /* const agentListe = await pb.collection('Agent').getFullList()
